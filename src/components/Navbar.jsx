@@ -20,7 +20,7 @@ import {
 import { HamburgerIcon, CloseIcon, AddIcon } from '@chakra-ui/icons';
 import logo from '../images/logo1.png';
 
-const Links = ['Inicio', 'Productos', 'Nosotros', 'Contactos'];
+const Links = ['Inicio', 'Productos', 'Nosotros', 'Contacto'];
 
 const NavLink = (props) => (
   <Link
