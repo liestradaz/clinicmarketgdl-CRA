@@ -21,15 +21,16 @@ export default function Products() {
 
   return (
     <>
-      <Wrap spacing="50px" justify="center" mx={100}>
+      <Wrap spacing="50px" justify="center">
         {productHeader &&
           productHeader.map((elem, idx) => (
             <WrapItem key={idx}>
               <Center rounded={"lg"} shadow="lg" _hover={{shadow:"dark-lg"}}>
-                <Box w="297px" h="388px">
+                <Box w="297px" h="388px" >
                   <Box
                     as="Center"
                     pt={"4"}
+                    
                     /* w="277px"
                   h="368px" */
                   >
